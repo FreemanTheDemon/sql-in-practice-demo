@@ -10,11 +10,11 @@ app.use(express.json())
 app.use(cors())
 
 // DEV
-// app.post('/seed', seed)
+app.post('/seed', seed);
 
 // USER
-// app.get('/user', getUserInfo)
-// app.put('/user', updateUserInfo)
+app.get('/user', getUserInfo)
+app.put('/user', updateUserInfo)
 
 // APPOINTMENTS
 // app.get('/appt', getUserAppt)
